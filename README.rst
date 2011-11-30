@@ -9,7 +9,7 @@ Installation
 2. Put the middleware folder in the root of your project.
 3. Edit you settings.py file to incorporate the appropriate middleware
 
-    'fish.middleware.request_user.ExceptionUserInfoMiddleware', 
+    'middleware.request_user.ExceptionUserInfoMiddleware', 
 
 
 
