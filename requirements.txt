@@ -1,0 +1,14 @@
+// This is a requirements template that includes common 
+// pip packages we use at Advanced Research Corp.
+
+Django
+South
+Sphinx
+Werkzeug
+bpython
+django-extensions
+django-tastypie
+django-userena
+dotcloud
+psycopg2
+PIL
