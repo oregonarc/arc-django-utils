@@ -45,7 +45,7 @@ class ArcApi(Api):
         if api_name is None:
             api_name = self.api_name
 
-        import pdb; pdb.set_trace()
+
         for name in sorted(self._registry.keys()):
             available_resources[name] = {
                 'list_endpoint': self._build_reverse_url("api_dispatch_list", kwargs={
